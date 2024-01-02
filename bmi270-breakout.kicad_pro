@@ -445,8 +445,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "bmi270-breakout.step",
+      "vrml": "bmi270-breakout.wrl"
     },
     "page_layout_descr_file": ""
   },
