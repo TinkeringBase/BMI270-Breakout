@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BMI270-Breakout")(type "KiCad")(uri "${KIPRJMOD}/lib/BMI270-Breakout.kicad_sym")(options "")(descr ""))
+)
