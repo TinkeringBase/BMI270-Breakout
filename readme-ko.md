@@ -5,8 +5,8 @@ Bosch Sensortec의 BMI270 6DoF IMU를 사용한 센서 브레이크아웃 모듈
 
 ## 사양
 Supply Voltage (VDD): 1.71~3.6V \
-Logic Low (VIL): 0.3*VDD max \
-Logic High (VIH): 0.7*VDD min \
+Logic Low (VIL): 0.3\*VDD max \
+Logic High (VIH): 0.7\*VDD min \
 Current consumption: around 1mA at performance mode \
 자세한 내용은 [BMI270 기술 데이터](https://www.bosch-sensortec.com/products/motion-sensors/imus/bmi270/#technical)를 참조하세요.
 

@@ -5,8 +5,8 @@ Sensor breakout using Bosch Sensortec's BMI270 6DoF IMU, supports Sparkfun Qwiic
 
 ## Specification
 Supply Voltage (VDD): 1.71~3.6V \
-Logic Low (VIL): 0.3*VDD max \
-Logic High (VIH): 0.7*VDD min \
+Logic Low (VIL): 0.3\*VDD max \
+Logic High (VIH): 0.7\*VDD min \
 Current consumption: around 1mA at performance mode \
 for more information, see [BMI270 techdata](https://www.bosch-sensortec.com/products/motion-sensors/imus/bmi270/#technical)
 
