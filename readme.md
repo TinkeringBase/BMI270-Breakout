@@ -1,7 +1,7 @@
 [한국어](https://github.com/FTIndustries/BMI270-Breakout/blob/main/readme-ko.md)
 # FTIndustries BMI270 IMU breakout
 ![preview](https://github.com/FTIndustries/BMI270-Breakout/blob/main/3dpreview.png?raw=true)\
-Sensor breakout using Bosch Sensortec's BMI270 6DoF IMU, supports Sparkfun Qwiic system. It uses the same form factor with well-known unbranded BMI160 boards and it is pin-to-pin compatible. 
+Sensor breakout using Bosch Sensortec's BMI270 6DoF IMU, supports Sparkfun Qwiic system. 
 
 ## Specification
 Supply Voltage (VDD): 1.71~3.6V \
