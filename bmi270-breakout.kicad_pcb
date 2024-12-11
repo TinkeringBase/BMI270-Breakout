@@ -138,7 +138,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R6"
-			(at 0 -1.27 360)
+			(at 0 -1.27 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "df0d9c3c-6b11-466d-b603-a3dd02a6b378")
@@ -150,7 +150,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "7702a1c9-e741-4ca7-86ca-4995cd4338de")
 			(effects
@@ -305,7 +305,7 @@
 			(uuid "0f975468-812b-438c-9753-2f70f4b32bf1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "221f12f3-5ab1-4033-bb77-ebae19bc46ec")
 			(effects
@@ -363,7 +363,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "b836e941-6f92-4c46-ab3b-87e35e88496c")
@@ -1126,7 +1126,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8d8c40df-0599-4fcd-88d5-238faac31dda")
@@ -1138,7 +1138,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "86b693e8-583c-46ed-b3b7-1d939e6fdc80")
 			(effects
@@ -1293,7 +1293,7 @@
 			(uuid "21de524f-744e-4d2d-beeb-4250312f304d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "91a08dc7-4a50-43b6-b0c1-0996e27679af")
 			(effects
@@ -2254,7 +2254,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "22736cd0-e063-466b-951d-7e4c0b0b1126")
@@ -3630,14 +3630,14 @@
 			(justify right mirror)
 		)
 	)
-	(gr_text "ADDR"
+	(gr_text "ADDR\n0x68"
 		(at 151.13 103.378 90)
 		(layer "B.SilkS")
 		(uuid "1b69fe3f-3684-47aa-ba47-e414a903204a")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.1)
 			)
 			(justify left mirror)
 		)
@@ -3655,7 +3655,7 @@
 		)
 	)
 	(gr_text "BMI270"
-		(at 157.48 93.726 0)
+		(at 152.146 93.98 0)
 		(layer "B.SilkS")
 		(uuid "3193f56e-f973-4e10-8237-6b112e530f75")
 		(effects
@@ -3663,7 +3663,7 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left mirror)
+			(justify mirror)
 		)
 	)
 	(gr_text "XDA"
@@ -3676,6 +3676,18 @@
 				(thickness 0.15)
 			)
 			(justify left mirror)
+		)
+	)
+	(gr_text "1.71~3.6V\nI2C 0x69"
+		(at 152.527 96.393 0)
+		(layer "B.SilkS")
+		(uuid "74dab533-8444-4fd5-939b-87ba96240f81")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify mirror)
 		)
 	)
 	(gr_text "SCL"
