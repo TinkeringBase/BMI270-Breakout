@@ -1,6 +1,6 @@
-[한국어](https://github.com/FTIndustries/BMI270-Breakout/blob/main/readme-ko.md)
-# FTIndustries BMI270 IMU breakout
-![preview](https://github.com/FTIndustries/BMI270-Breakout/blob/main/3dpreview.png?raw=true)\
+[한국어](https://github.com/TinkeringBase/BMI270-Breakout/blob/main/readme-ko.md)
+# TinkeringBase BMI270 IMU breakout
+![preview](https://github.com/TinkeringBase/BMI270-Breakout/blob/main/3dpreview.png?raw=true)\
 Sensor breakout using Bosch Sensortec's BMI270 6DoF IMU, supports Sparkfun Qwiic system. 
 
 ## Specification
